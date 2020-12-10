@@ -1,15 +1,15 @@
 // Challenge problem at https://adventofcode.com/2020/day/2
-package com.jameskerrane.advent_of_code_solutions._2020.day2;
+package _2020.day02;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Day2PasswordPhilosophy {
+public class PasswordPhilosophy {
 
     public static void main(String[] args) throws FileNotFoundException {
         // Get inputs from input.txt file
-        Scanner s = new Scanner(new File("java/com/jameskerrane/advent_of_code_solutions/_2020/day2/input.txt"));
+        Scanner s = new Scanner(new File("src/_2020/day02/input.txt"));
         int partOneValid = 0;
         int partTwoValid = 0;
 
